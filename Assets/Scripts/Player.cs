@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        move.x = Input.GetAxisRaw("Horizontal");
-        move.y = Input.GetAxisRaw("Vertical");
+        move.x = Input.GetAxisRaw("Vertical");
+        move.y = Input.GetAxisRaw("Horizontal");
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             speedMultiplay = speedRun;
