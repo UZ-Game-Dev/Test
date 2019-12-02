@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
         move.y = Input.GetAxisRaw("Vertical");
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
+            //fdsfesfgeruighweklhfgkwenglrw
             speedMultiplay = speedRun;
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift))
